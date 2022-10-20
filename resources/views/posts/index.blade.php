@@ -7,8 +7,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600"  rel="stylesheet">
     </head>
-    <body 
+    <body>
         <h1>Blog Name</h1>
+        <a href="/posts/create">create</a>
         <div class='posts'>
             @foreach ($posts as $post)
             <div class='post'>
