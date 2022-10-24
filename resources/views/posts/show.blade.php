@@ -16,7 +16,8 @@
                 <h3>本文</h3>
                 <p class='body'>{{$post -> body}}</p>
             </div>
-            <a href="">{{$post->category->name}}</a>
+            <!--<a href="">{{$post->category->name}}</a>-->
+            <a href="/categories/{{$post->category->id}}">{{$post->category->name}}</a>
         </div>
         <p class='edit'>
             <a href ="/posts/{{$post->id}}/edit">更新</a>
