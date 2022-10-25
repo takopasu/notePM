@@ -9,6 +9,7 @@
     </head>
     <body>
         <h1>Blog Name</h1>
+        <div>{{Auth::user()->name}}</div>
         <a href="/posts/create">create</a>
         <div class='posts'>
             @foreach ($posts as $post)
