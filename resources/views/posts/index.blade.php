@@ -10,7 +10,7 @@
         <head>
             <meta charset="utf-8">
             <title>Blog</title>
-            <div>{{Auth::user}}</div>
+            <div>{{Auth::user()->name}}</div>
             <!-- Fonts -->
             <link href="https://fonts.googleapis.com/css?family=Nunito:200,600"  rel="stylesheet">
         </head>
